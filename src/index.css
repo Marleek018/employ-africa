@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient {
+  background: linear-gradient(90deg, #FC6A01 0%, #E03500 100%);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-clip: text; 
+  
+}
+
+
+
+/* .css-ahj2mt-MuiTypography-root{
+  font-size: 50px !important;
+} */
