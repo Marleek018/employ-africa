@@ -18,11 +18,14 @@ const AboutUs = () => {
 
         <div className="flex justify-center xmd:pt-[62px] lg:pt-[72px] xl:pt-[97px]">
           <a
-            href="http://bit.ly/DownloadEmployNow"
+            href="http://bit.ly/theemployapp"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="font-medium text-[16px] w-[149px] h-[51px] bg-orange text-newwhite border-[1px] border-none rounded-[6px]">
+            <button
+              type="button"
+              className="font-medium text-[16px] w-[149px] h-[51px] bg-orange text-newwhite border-[1px] border-none rounded-[6px]"
+            >
               Create Account
             </button>
           </a>

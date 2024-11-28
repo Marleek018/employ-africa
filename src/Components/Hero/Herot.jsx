@@ -53,11 +53,15 @@ const Herot = () => {
               name="email"
               placeholder="Enter your email address"
             />
-            <button
-              type="submit"
-              className="xs:w-[64px] xmd:w-[86px] xs:h-[38px] xmd:h-[51px] bg-black text-white rounded-r-[6px]  xmd:text-[16px]"
-            >
-              Join us
+            <button type='button' className="xs:w-[64px] xmd:w-[86px] xs:h-[38px] xmd:h-[51px] bg-black text-white rounded-r-[6px]  xmd:text-[16px]">
+              <a
+                href="https://docs.google.com/forms/d/1Cp4CvmytGfSDz79f-gIh9xMs7jQLo4xvEzagjTWxtdQ/
+"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Join us
+                </a>
             </button>
             {errors.email && touched.email ? (
               <p className="text-red-700 text-[16px] absolute left-0 bottom-[-20px] xsm:bottom-[-24px] xsm:left-[18%] md:left-[25%] xmd:left-0">

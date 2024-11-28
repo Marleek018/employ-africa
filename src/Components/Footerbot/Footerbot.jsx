@@ -20,7 +20,7 @@ const Footerbot = () => {
           opportunities in the fastest, affordable and most convenient way.
         </p>
         <div className="flex cursor-pointer">
-          <a href="http://bit.ly/DownloadEmployNow" target="_blank">
+          <a href="http://bit.ly/theemployapp" target="_blank">
             <img src={playstore} alt="LOGO" />
           </a>
         </div>

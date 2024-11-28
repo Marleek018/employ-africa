@@ -42,17 +42,25 @@ const Navbar = () => {
           <li className="active:font-bold hover:underline hover:decoration-orange">
             <Link to="/about">About Us</Link>
           </li>
-          <a href="mailto:hello@employafrica.org">
+          {/* <a href="mailto:hello@employafrica.org">
             <li className="active:font-bold hover:underline hover:decoration-orange">
               Contact Us
             </li>
-          </a>
+          </a> */}
         </ul>
       </div>
-
-      <button className="bg-orange py-[15px] px-[18px] border rounded-[6px] text-white text-[16px] font-medium font-DmSans xs:hidden xmd:block hover:bg-neworange">
-        Create Account
-      </button>
+      <a
+        href="http://bit.ly/theemployapp"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          type="button"
+          className="bg-orange py-[15px] px-[18px] border rounded-[6px] text-white text-[16px] font-medium font-DmSans xs:hidden xmd:block hover:bg-neworange"
+        >
+          Create Account
+        </button>
+      </a>
 
       <div className="xs:block xmd:hidden font-DmSans z-10">
         <GiHamburgerMenu
@@ -95,14 +103,14 @@ const Navbar = () => {
                 <Link to="/about">About Us</Link>
               </li>
             </div>
-            <div className="flex items-center gap-[16px] py-[16px] ">
+            {/* <div className="flex items-center gap-[16px] py-[16px] ">
               <img src={conta} alt="IMAGE" />
               <a href="mailto:hello@employafrica.org">
                 <li className="font-medium  text-[16px] hover:font-semibold cursor-pointer ">
                   Contact Us
                 </li>
               </a>
-            </div>
+            </div> */}
           </ul>
         </div>
       </div>

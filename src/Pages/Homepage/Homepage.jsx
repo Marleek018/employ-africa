@@ -170,7 +170,7 @@ const Homepage = () => {
           </p>
           <div className="flex  xs:justify-center xmd:justify-start">
             <a
-              href="http://bit.ly/DownloadEmployNow"
+              href="http://bit.ly/theemployapp"
               target="_blank"
               rel="noopener noreferrer"
             >

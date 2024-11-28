@@ -47,8 +47,15 @@ const Footer = () => {
       <div className="bg-bblack xs:block xmd:flex justify-around py-[44px]">
         <div className="xs:px-[20px] xmd:px-0 ">
           <div className="xs:mt-[54px] xmd:mt-[60px]">
-            <a href="mailto:hello@employafrica.org">
-              <button className="bg-white rounded-[10px] xs:py-[9px] xmd:py-[0px] xs:w-[119px] xmd:w-[128px] xs:h[33px] xmd:h-[41px] font-DmSans font-medium xs:text-[14px] xmd:text-[16px]">
+            <a
+              href="https://docs.google.com/forms/d/1Cp4CvmytGfSDz79f-gIh9xMs7jQLo4xvEzagjTWxtdQ/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                type="button"
+                className="bg-white rounded-[10px] xs:py-[9px] xmd:py-[0px] xs:w-[119px] xmd:w-[128px] xs:h[33px] xmd:h-[41px] font-DmSans font-medium xs:text-[14px] xmd:text-[16px]"
+              >
                 Contact Us
               </button>
             </a>
@@ -168,12 +175,14 @@ const Footer = () => {
                 ""
               )}
             </div>
-            <button
-              type="submit"
-              className="w-[100%] h-[52px] rounded-[6px] text-white font-DmSans xs:text-[12px] xmd:text-[16px] font-semibold bg-cgray mt-[32px]"
-            >
-              Send Messsage
-            </button>
+            <a href="mailto:hello@employafrica.org">
+              <button
+                type="button"
+                className="w-[100%] h-[52px] rounded-[6px] text-white font-DmSans xs:text-[12px] xmd:text-[16px] font-semibold bg-cgray mt-[32px]"
+              >
+                Send Messsage
+              </button>
+            </a>
           </form>
           <div className="flex gap-[30px] xs:visible xmd:invisible justify-center pt-[76px] ">
             <a

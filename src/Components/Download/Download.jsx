@@ -17,7 +17,7 @@ const Download = () => {
             below to get it now
           </p>
           <div className="flex  xs:justify-center xmd:justify-start">
-            <a href="http://bit.ly/DownloadEmployNow" target="_blank">
+            <a href="http://bit.ly/theemployapp" target="_blank">
               <img
                 className="cursor-pointer xs:w-[204px] xsm:w-[230px] xmd:w-[260px] lg:w-[297px] xl:w-[329px]"
                 src={gplay}
