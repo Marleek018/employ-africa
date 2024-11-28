@@ -15,6 +15,12 @@ import pri from "../../assets/pri.svg";
 
 
 const Navbar = () => {
+  const handleScroll = () => {
+    const targetSection = document.getElementById("targetSection");
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }
    const [isOpen, setIsOpen] = useState(false);
 
    const toggleSidebar = () => {
@@ -42,11 +48,11 @@ const Navbar = () => {
           <li className="active:font-bold hover:underline hover:decoration-orange">
             <Link to="/about">About Us</Link>
           </li>
-          {/* <a href="mailto:hello@employafrica.org">
-            <li className="active:font-bold hover:underline hover:decoration-orange">
+          
+            <li onClick={handleScroll} className="active:font-bold hover:underline hover:decoration-orange">
               Contact Us
             </li>
-          </a> */}
+         
         </ul>
       </div>
       <a

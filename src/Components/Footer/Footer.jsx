@@ -54,6 +54,7 @@ const Footer = () => {
             >
               <button
                 type="button"
+                id="targetSection"
                 className="bg-white rounded-[10px] xs:py-[9px] xmd:py-[0px] xs:w-[119px] xmd:w-[128px] xs:h[33px] xmd:h-[41px] font-DmSans font-medium xs:text-[14px] xmd:text-[16px]"
               >
                 Contact Us
