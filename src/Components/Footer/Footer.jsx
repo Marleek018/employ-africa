@@ -175,7 +175,7 @@ const Footer = () => {
                 ""
               )}
             </div>
-            <a href="mailto:hello@employafrica.org">
+            <a href="mailto:info@employafrica.org">
               <button
                 type="button"
                 className="w-[100%] h-[52px] rounded-[6px] text-white font-DmSans xs:text-[12px] xmd:text-[16px] font-semibold bg-cgray mt-[32px]"
